@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.samsung.inviteapplication.view.smsActivity">
+
+
+    <EditText
+        android:id="@+id/phoneNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="19dp"
+        android:hint="phone"
+        />
+
+    <EditText
+
+        android:id="@+id/text_to_be_sent"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/edit_text"
+        android:textColor="@color/fontGreen"
+        android:textSize="25sp"
+        android:textColorHint="@color/fontGreen"
+        android:layout_marginTop="100dp"
+        android:fontFamily="sans-serif-light"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+
+        />
+
+
+    <Button
+        android:id="@+id/send_the_sms_when_clicked"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="380dp"
+        android:text="SEND"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:background="@drawable/gradient_green"
+        />
+</RelativeLayout>

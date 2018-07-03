@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Invite</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="com.twitter.sdk.android.CONSUMER_KEY">m0gpH0iePIiQUMKq7ZwqIDTIL</string>
+    <string name="com.twitter.sdk.android.CONSUMER_SECRET">X8As5I4RUxlJ61gPhiQPWCWT0ltLY8VdbLzF8cLBXvv1rrtKTP</string>
+
+    <string name="configure">Configure</string>
+    <string name="add_widget">Add widget</string>
+    <string name="facebook_app_id">199984107295981</string>
+    <string name="title_activity_invite_navigation">invite_navigation</string>
+    <string name="title_activity_make_invite">MakeInviteActivity</string>
+    <string name="tab_text_1">Details</string>
+    <string name="tab_text_2">Contacts</string>
+    <string name="tab_text_3">Message</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>

@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/fontGreen</item>
+        <item name="colorPrimaryDark">@color/fontGreen</item>
+        <item name="colorAccent">@color/fontGreen</item>
+    </style>
+
+    <style name="AppToolBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. bar color, status bar color, text color -->
+        <item name="colorPrimary">@color/bgGreen</item>
+        <item name="colorPrimaryDark">@color/fontGreen</item>
+        <item name="colorAccent">@color/white</item>
+    </style>
+
+    <style name="AppTheme.gridAddEvent" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

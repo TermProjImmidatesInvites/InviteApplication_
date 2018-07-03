@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgGreen"
+    tools:context="view.splash"
+    >
+
+    <com.felipecsl.gifimageview.library.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gif_splash"
+        android:scaleType="fitCenter"
+        />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="400dp"
+        android:maxHeight="20dp"
+        android:indeterminate="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:max="@android:integer/config_shortAnimTime"
+        android:maxWidth="30dp"
+        android:progress="@android:integer/config_longAnimTime"
+        android:visibility="visible"
+        tools:visibility="visible"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Immediate Invites"
+        android:layout_below="@+id/progressBar2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textStyle="italic"
+        />
+
+</RelativeLayout>
