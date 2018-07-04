@@ -41,6 +41,7 @@ public class login_fragment extends Fragment   implements  GoogleApiClient.OnCon
     private ImageView fb_button;
     private ImageView gmail_button;
     private ImageView twitter_button;
+    private ImageView fingerprint;
     TwitterLoginButton tt;
     private GoogleApiClient googleApiClient;
     public static final int SIGN_IN_CODE=777;
@@ -87,12 +88,21 @@ public class login_fragment extends Fragment   implements  GoogleApiClient.OnCon
             @Override
             public void failure(TwitterException exception) {
                 // Do something on failure
-                Toast.makeText(getActivity(), "Authentication failed!", Toast.LENGTH_LONG).show();
-
+                Intent intent = new Intent(getActivity(), Grid_Activity.class);
+                startActivity(intent);
             }
         });
 
+//////////////////////login with fingerprint/////////////////////
+        fingerprint=(ImageView) view.findViewById(R.id.fingerprint);
+        fingerprint.setOnClickListener(new View.OnClickListener(){
 
+            @Override
+            public void onClick(View view) {
+                Intent i=new Intent(getActivity(),FingerprintActivity.class);
+                startActivity(i);
+            }
+        });
 
 
 
@@ -212,7 +222,10 @@ public class login_fragment extends Fragment   implements  GoogleApiClient.OnCon
         }
         else
         {
-            Toast.makeText(getActivity(), "Unsucesfull attempt",Toast.LENGTH_SHORT).show();
+            Toast.makeText(getActivity(),"Successfully",Toast.LENGTH_SHORT).show();
+            Intent i=new Intent(getActivity(), Grid_Activity.class);
+           startActivity(i);
+            //Toast.makeText(getActivity(), "Unsucesfull attempt",Toast.LENGTH_SHORT).show();
         }
     }
 

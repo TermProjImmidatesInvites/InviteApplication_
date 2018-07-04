@@ -7,10 +7,11 @@
     <color name="black">#000</color>
     <color name="white">#fff</color>
     <color name="topPanelColor">#da3c86</color>
-
+    <color name="textPrimary">#f5f5f5</color>
     <color name="bgPink">#ea4c89</color>
     <color name="bgBlue">#e7eef4</color>
     <color name="bgGreen">#006b63</color>
+    <color name="textPrimaryDark">#95aab4</color>
 
     <color name="fontGreen">#03a679</color>
     <color name="fontYellow">#ffd743</color>
@@ -25,6 +26,7 @@
     <color name="textColor">#6e6e6e</color>
 
     <color name="darkGreen">#006b63</color>
+    <color name="errorText">#ff7878</color>
     <color name="lightGreen">#03a679</color>
 
 

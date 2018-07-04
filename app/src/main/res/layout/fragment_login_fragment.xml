@@ -190,26 +190,35 @@
                 android:background="@drawable/google"
                 android:padding="10dp"
                 android:src="@drawable/img_googleplus" />
-            <ImageView
-                android:id="@+id/OpenTwitter"
-                android:layout_width="50dp"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                android:layout_height="50dp"
-                android:background="@drawable/twitter"
-                android:padding="10dp"
-                android:src="@drawable/img_twitter" />
-            <com.twitter.sdk.android.core.identity.TwitterLoginButton
-                android:id="@+id/abc"
-                android:layout_width="wrap_content"
-                android:layout_below="@id/OpenTwitter"
-                android:layout_height="wrap_content" />
+
+
 
 
         </LinearLayout>
 
+        <com.twitter.sdk.android.core.identity.TwitterLoginButton
+            android:id="@+id/abc"
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/linearLayout2"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="5dp"
+
+            android:background="@drawable/twitter" />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="202dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/fingerprint"
+            android:src="@drawable/fingerprint"
+            android:layout_below="@+id/linearLayout2"/>
+
+
 
     </RelativeLayout>
+
 
 
 </FrameLayout>

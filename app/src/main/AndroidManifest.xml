@@ -11,6 +11,8 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.MEDIA_CONTENT_CONTROL" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+
 
     <meta-data
         android:name="com.facebook.sdk.ApplicationId"
@@ -32,6 +34,16 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".view.FingerprintActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+
+
+            </intent-filter>
+
         </activity>
         <activity
             android:name=".view.Grid_Activity"
@@ -66,7 +78,8 @@
         <activity
             android:name=".view.MakeInviteActivity"
             android:label="@string/title_activity_make_invite"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
+
     </application>
 
 </manifest>
